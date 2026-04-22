@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.landing {
+  background-image: url(/pictures/repencil.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav img {
+  width: 80px;
+  height: 80px;
+}
+.nav :hover{
+    transform: scale(1.2);
+}
+
+
+.landing1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 70px;
+  flex-direction: column;
+}
+
+button {
+  background-color: rgb(0, 129, 161);
+  color: white;
+  border: none;
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.landing1 h1 {
+  font-size: 80px;
+}
+
+.landing1 p {
+  font-size: 27px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  line-height: 50px;
+}
+
+.offer h3 {
+  font-size: 30px;
+}
+
+.offer p {
+  font-size: 15px;
+  color: rgb(182, 182, 182);
+}
+
+.offer button {
+  background-color: black;
+  margin: 20px 0px;
+}
+
+.offer a {
+  color: rgb(0, 187, 234);
+  text-decoration: underline;
+}
+
+
+.services {
+  background-color: #0080a3;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  gap: 50px;
+  flex-basis: 50%;
+}
+
+.services h5 {
+  color: rgb(230, 172, 0);
+}
+
+h2 {
+  font-size: 45px;
+  color: white;
+}
+
+.services p {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  opacity: 50%;
+}
+
+.website {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/pictures/joanna-kosinska-bF2vsubyHcQ-unsplash\ copy.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.website h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.projects {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  flex-basis: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  columns: 2;
+  gap: 0px;
+  text-align: center;
+}
+
+h5 {
+  color: rgb(176, 135, 1);
+}
+
+.projects h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.box1 {
+  background-image: url(/pictures/portfolio-1.jpg);
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  color: white;
+}
+
+.box2 {
+  background-image: url(/pictures/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  color: white;
+}
+
+.box3 {
+  background-image: url(/pictures/joanna-kosinska-BteMcldTQVo-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  color: white;
+}
+
+.box4 {
+  background-image: url(/pictures/joanna-kosinska-bF2vsubyHcQ-unsplash\ copy.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 400px;
+  color: white;
+}
+
+.projects h5 {
+  font-size: 20px;
+  padding: 0px 40px;
+}
+
+.projects h5 {
+  font-size: 10px;
+  padding: 10px 40px 30px 40px;
+}
+
+.cta {
+    background: #1D809F;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.cta h2 { margin-bottom: 2rem; }
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+.map img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.footer img {
+  height: 80px;
+  width: 80px;
+}
